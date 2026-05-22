@@ -3,7 +3,7 @@
 # Tcl/Tk script to create a simple GUI with a button
 package require Tk
 # Create the main window
-set root [tk::toplevel .]
+set root .
 wm title $root "Tcl/Tk Button Example"
 wm geometry $root "300x150"
 
@@ -25,4 +25,4 @@ proc on_button_click {} {
 }
 
 # Start the main event loop
-tk::mainloop
+while {1} { update}
