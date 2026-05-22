@@ -1,7 +1,7 @@
 #!/usr/bin/env tclsh
 
 # Tcl/Tk script to create a simple GUI with a button
-
+package require Tk
 # Create the main window
 set root [tk::toplevel .]
 wm title $root "Tcl/Tk Button Example"
